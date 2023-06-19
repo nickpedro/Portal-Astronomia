@@ -7,6 +7,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*------------------------------------PARTE DO CRUD-------------------------------------*/
+
+body{
+    background-image: url(http://usagif.com/wp-content/uploads/gif/outerspace-6.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* .img{  
     display: flex;
     justify-content: center;
