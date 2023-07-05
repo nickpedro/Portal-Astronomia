@@ -11,17 +11,148 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+ .header{
+    top:0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
 .titulo{
     color: white;
     font-size: 2em;
-    user-select: none;
-    height: 90vh;
-    display: flex;
+    text-align: justify;
+}
+
+/* .Img-Planetas{
+    width: 100%;
+} */
+
+/* -----------------------sol-------------------------- */
+.row{
+    float: left;
+    margin-right: 1850px;
+    margin-top: -150px;
+    
+   
+}
+
+.sol{
+    width: 560px;
+    height: auto;
+}
+
+/* -----------------------mercurio-------------------------- */
+.row2{
+    float: right;
+    margin-right:72%;
+    margin-top: -90px;
+   
+}
+
+.mercurio{
+    width: 150px;
+    height: auto;
+}
+
+/* -----------------------venus-------------------------- */
+.row3{
+    float: right;
+    margin-right: 1688px;
+    margin-top: -157px;
+    
+    
+}
+
+.venus{
+    width: 150px;
+    height: auto;
+}
+
+/* -----------------------terra-------------------------- */
+.row4{
+    float: right;
+    margin-right: 1523px;
+    margin-top: -172px;
+    
+    
+}
+
+.terra{
+    width: 160px;
+    height: auto;
+}
+
+/* -----------------------marte-------------------------- */
+.row5{
+    float: right;
+    margin-right: 1328px;
+    margin-top: -176px;
+    
+}
+
+.marte{
+    width: 170px;
+    height: auto;
+}
+
+/* -----------------------jupiter-------------------------- */
+.row6{
+    float: right;
+    margin-right: 980px;
+    margin-top: -270px;
+    
+}
+
+.jupiter{
+    width: 350px;
+    height: auto;
+}
+
+/* -----------------------saturno-------------------------- */
+.row7{
+    float: right;
+    margin-right: 500px;
+    margin-top: -313px;
+   
+}
+
+.saturno{
+    width: 490px;
+    height: auto;
+}
+
+/* -----------------------urano-------------------------- */
+.row8{
+    float: right;
+    margin-right: 195px;
+    margin-top: -280px;
+    
+}
+
+.urano{
+    width: 350px;
+    height: auto;
+}
+
+/* -----------------------netuno-------------------------- */
+.row9{
+    float: right;
+    margin-right: 30px;
+    margin-top: -240px;
+
+}
+
+.netuno{
+    width: 230px;
+    height: auto;
 }
